@@ -46,11 +46,12 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.example.authenticationmodel.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ResetPasswordScreen(modifier: Modifier = Modifier) {
+fun ResetPasswordScreen(modifier: Modifier,navController: NavController) {
     var username by rememberSaveable { mutableStateOf("") }
     var password by rememberSaveable { mutableStateOf("") }
     //val authState = authViewModel.authState.observeAsState()
@@ -208,12 +209,5 @@ fun ResetPasswordScreen(modifier: Modifier = Modifier) {
 //
 //        }
     }
-
-}
-
-@Preview
-@Composable
-fun ResetPasswordScreenPreview() {
-    ResetPasswordScreen()
 
 }

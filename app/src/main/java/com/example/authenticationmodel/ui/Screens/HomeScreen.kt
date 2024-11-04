@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 
 @Composable
-fun HomeScreen(modifier: Modifier = Modifier)
+fun HomeScreen(modifier: Modifier,navController: NavController)
 {
     //val authState  = authViewModel.authState.observeAsState()
 
@@ -49,11 +49,4 @@ fun HomeScreen(modifier: Modifier = Modifier)
         }
 
     }
-}
-
-@Preview
-@Composable
-fun HomeScreenPreview()
-{
-    HomeScreen(modifier = Modifier)
 }

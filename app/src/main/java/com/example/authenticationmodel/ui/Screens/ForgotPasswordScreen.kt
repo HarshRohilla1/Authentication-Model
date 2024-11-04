@@ -39,11 +39,12 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.example.authenticationmodel.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ForgotPasswordScreen()
+fun ForgotPasswordScreen(modifier: Modifier,navController: NavController)
 {
     val myCustomFont = FontFamily(Font(R.font.robotobold))
     var email by rememberSaveable{ mutableStateOf("") }
@@ -176,11 +177,4 @@ fun ForgotPasswordScreen()
     }
 
 
-}
-
-@Preview(showBackground = true)
-@Composable
-fun ForgotPasswordScreenPreview()
-{
-    ForgotPasswordScreen()
 }

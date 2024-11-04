@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.rememberNavController
 import com.example.authenticationmodel.ui.theme.AuthenticationModelTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,6 +21,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             AuthenticationModelTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    val navController = rememberNavController()
+                    Navigation(navController = navController)
 
                 }
             }

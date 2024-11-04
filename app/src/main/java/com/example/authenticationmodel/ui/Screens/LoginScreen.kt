@@ -47,11 +47,12 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.example.authenticationmodel.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun LoginScreen(modifier: Modifier /*navController: NavController, authViewModel: AuthViewModel*/) {
+fun LoginScreen(modifier: Modifier ,navController: NavController, /*authViewModel: AuthViewModel*/) {
     var username by rememberSaveable { mutableStateOf("") }
     var password by rememberSaveable { mutableStateOf("") }
     var passwordVisible by rememberSaveable { mutableStateOf(false) }
@@ -210,10 +211,4 @@ fun LoginScreen(modifier: Modifier /*navController: NavController, authViewModel
             }
 
     }
-}
-
-@Preview
-@Composable
-fun LoginScreenPreview() {
-    LoginScreen(modifier = Modifier)
 }

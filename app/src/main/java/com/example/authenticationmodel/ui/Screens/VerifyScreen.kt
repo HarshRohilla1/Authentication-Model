@@ -54,10 +54,11 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.NavController
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun VerifyScreen()
+fun VerifyScreen(modifier: Modifier,navController: NavController)
 {
     val myCustomFont = FontFamily(Font(R.font.robotobold))
     var Code by rememberSaveable{ mutableStateOf("") }
@@ -188,10 +189,4 @@ fun VerifyScreen()
         Spacer(modifier = Modifier.height(16.dp))
     }
 
-}
-
-@Preview
-@Composable
-fun VerifyScreenPreview(){
-    VerifyScreen()
 }

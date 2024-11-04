@@ -44,11 +44,12 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.example.authenticationmodel.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SignUpScreen(modifier: Modifier = Modifier) {
+fun SignUpScreen(modifier: Modifier,navController: NavController) {
     var username by rememberSaveable { mutableStateOf("") }
     var password by rememberSaveable { mutableStateOf("") }
     //val authState = authViewModel.authState.observeAsState()
@@ -311,12 +312,5 @@ fun SignUpScreen(modifier: Modifier = Modifier) {
 //
 //        }
     }
-
-}
-
-@Preview
-@Composable
-fun SignUpScreenPreview() {
-    SignUpScreen(modifier = Modifier)
 
 }
