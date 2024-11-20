@@ -1,5 +1,6 @@
 package com.example.authenticationmodel.ui.Screens
 
+import android.widget.Toast
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -28,8 +29,10 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -48,28 +51,36 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import com.example.authenticationmodel.Auth.google.GoogleAuthModel
+import com.example.authenticationmodel.Auth.google.GoogleAuthViewModel
+import com.example.authenticationmodel.Auth.google.SignInState
 import com.example.authenticationmodel.R
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun LoginScreen(modifier: Modifier ,navController: NavController, /*authViewModel: AuthViewModel*/) {
+fun LoginScreen(modifier: Modifier ,
+                navController: NavController,
+                googleAuthViewModel: GoogleAuthViewModel,
+                state:SignInState,
+                onSignInClick:()->Unit) {
     var username by rememberSaveable { mutableStateOf("") }
     var password by rememberSaveable { mutableStateOf("") }
     var passwordVisible by rememberSaveable { mutableStateOf(false) }
-
-    //val authState = authViewModel.authState.observeAsState()
     val context = LocalContext.current
+    val scope = rememberCoroutineScope()
 
-//    LaunchedEffect(authState.value) {
-//        when(authState.value) {
-//            is AuthState.Authenticated -> navController.navigate("homepage")
-//            is AuthState.Error -> Toast.makeText(context,
-//                (authState.value as AuthState.Error).message, Toast.LENGTH_LONG).show()
-//
-//            else -> Unit
-//        }
-//
-//    }
+    LaunchedEffect(key1 = state.SignInerror) {
+        state.SignInerror?.let {error->
+            Toast.makeText(
+                context,
+                error,
+                Toast.LENGTH_LONG
+            ).show()
+        }
+
+
+    }
     val myCustomFont = FontFamily(Font(R.font.robotobold))
 
     Column(
@@ -176,9 +187,9 @@ fun LoginScreen(modifier: Modifier ,navController: NavController, /*authViewMode
             border = BorderStroke(0.5.dp,Color.Black),
 
             onClick = {
-                //authViewModel.login(username,password)
+                onSignInClick()
             },
-            //enabled = authState.value != AuthState.Loading
+
         ) {
             Row(
             modifier = Modifier.fillMaxSize(),

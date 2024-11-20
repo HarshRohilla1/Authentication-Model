@@ -10,5 +10,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Authentication Model</string>
+    <string name="default_web_client_id" translatable="false">465233995217-j6nq2p7i3dkr3hg68qb2oqf4oalg3sgg.apps.googleusercontent.com</string>
+    <string name="default_webclient_id">465233995217-j6nq2p7i3dkr3hg68qb2oqf4oalg3sgg.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">465233995217</string>
+    <string name="google_api_key" translatable="false">AIzaSyBFVj0ijZKsePpiyxX4n-USxByps6pqQMA</string>
+    <string name="google_app_id" translatable="false">1:465233995217:android:5841bbb90da2282f0e6cf0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBFVj0ijZKsePpiyxX4n-USxByps6pqQMA</string>
+    <string name="google_storage_bucket" translatable="false">authenticationmodel-13da1.firebasestorage.app</string>
+    <string name="project_id" translatable="false">authenticationmodel-13da1</string>
     <style name="Theme.AuthenticationModel" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

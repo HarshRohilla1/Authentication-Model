@@ -1,154 +1,154 @@
 [
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_ubuntulightitalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/ubuntulightitalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotoblack.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotoblack.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotolight.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotolight.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/drawable_ic_google_logo.png.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/drawable/ic_google_logo.png"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_ubuntulight.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/ubuntulight.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotoblackitalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotoblackitalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotomedium.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotomedium.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotomediumitalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotomediumitalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotothinitalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotothinitalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotobolditalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotobolditalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotoitalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotoitalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotothin.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotothin.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_ubuntuitalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/ubuntuitalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_ubuntubold.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/ubuntubold.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotothin.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotothin.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotolightitalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotolightitalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_ubuntubold.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/ubuntubold.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotolight.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotolight.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_ubuntumediumitalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/ubuntumediumitalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/xml/data_extraction_rules.xml"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_ubuntulightitalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/ubuntulightitalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_ubuntumedium.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/ubuntumedium.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_ubunturegular.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/ubunturegular.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotoregular.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotoregular.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotobolditalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotobolditalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotolightitalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotolightitalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_ubuntumedium.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/ubuntumedium.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_ubunturegular.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/ubunturegular.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotobold.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotobold.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotoblackitalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotoblackitalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_ubuntubolditalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/ubuntubolditalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotoblack.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotoblack.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotobold.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotobold.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_robotomediumitalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/robotomediumitalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_ubuntulight.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/ubuntulight.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_ubuntuitalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/ubuntuitalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/xml_backup_rules.xml.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/xml/backup_rules.xml"
+        "merged": "com.example.authenticationmodel.app-debug-62:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_ubuntumediumitalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/ubuntumediumitalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotomedium.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotomedium.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/drawable_ic_google_logo_removebg_preview.png.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/drawable/ic_google_logo_removebg_preview.png"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotoregular.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotoregular.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotoitalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotoitalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/font_ubuntubolditalic.ttf.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/font/ubuntubolditalic.ttf"
+        "merged": "com.example.authenticationmodel.app-debug-62:/xml_backup_rules.xml.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.authenticationmodel.app-debug-62:/font_robotothinitalic.ttf.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/font/robotothinitalic.ttf"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/drawable_ic_google_logo.png.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/drawable/ic_google_logo.png"
+        "merged": "com.example.authenticationmodel.app-debug-62:/drawable_ic_google_logo_removebg_preview.png.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/drawable/ic_google_logo_removebg_preview.png"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.authenticationmodel.app-debug-62:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.authenticationmodel.app-debug-49:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.authenticationmodel.app-main-51:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.authenticationmodel.app-debug-62:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.authenticationmodel.app-main-64:/mipmap-xxhdpi/ic_launcher.webp"
     }
 ]

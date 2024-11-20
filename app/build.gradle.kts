@@ -1,17 +1,20 @@
+import com.android.builder.files.classpathToRelativeFileSet
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id ("com.google.gms.google-services")
 }
 
 android {
     namespace = "com.example.authenticationmodel"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.authenticationmodel"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -37,12 +40,13 @@ android {
     buildFeatures {
         compose = true
     }
+    buildToolsVersion = "35.0.0"
 }
 
 dependencies {
 
-    //implementation("com.google.firebase:firebase-auth-ktx")
-    //implementation ("com.google.android.gms:play-services-auth:20.6.0")
+    implementation("com.google.firebase:firebase-auth-ktx:21.1.0")
+    implementation ("com.google.android.gms:play-services-auth:20.4.1")
     implementation ("androidx.compose.material:material-icons-extended:1.3.0")
     implementation ("androidx.navigation:navigation-compose:2.7.3")
 
